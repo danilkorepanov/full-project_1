@@ -1005,7 +1005,8 @@ body a {
 }
 
 .startup__buttons {
-  z-index: 1;
+  position: relative;
+  z-index: 3;
 }
 
 .startup__button {
