@@ -1013,6 +1013,7 @@ body {
 .footer {
 	margin: 168px 0px 0px 0px;
 	position: relative;
+	z-index: 1;
 	@media (max-width: 425px) {
 		margin: 20px 0px 0px 0px;
 	}
@@ -1049,6 +1050,8 @@ body {
 	}
 
 	&__social {
+		position: relative;
+		z-index: 2;
 	}
 
 	&__columns {

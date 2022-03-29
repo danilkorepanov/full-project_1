@@ -1427,6 +1427,7 @@ body a {
 .footer {
   margin: 168px 0px 0px 0px;
   position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 425px) {
@@ -1469,6 +1470,11 @@ body a {
   letter-spacing: 0.32499998807907104px;
   text-align: left;
   color: #f2994a;
+}
+
+.footer__social {
+  position: relative;
+  z-index: 2;
 }
 
 .footer__columns {
