@@ -397,7 +397,7 @@ body a {
   right: 0;
   width: 723px;
   height: 579px;
-  background: url("/src/files/img/main/Frame.svg") 0 0 no-repeat;
+  background: url("../img/main/Frame.svg") 0 0 no-repeat;
 }
 
 @media (max-width: 768px) {
@@ -598,13 +598,13 @@ body a {
 .sponsors::before {
   top: -100px;
   left: -65px;
-  background: url("/src/files/img/main/your-choice/decor-2.svg") no-repeat;
+  background: url("../img/main/your-choice/decor-2.svg") no-repeat;
 }
 
 .sponsors:after {
   top: -100px;
   right: -132px;
-  background: url("/src/files/img/main/your-choice/decor-1.svg") no-repeat;
+  background: url("../img/main/your-choice/decor-1.svg") no-repeat;
 }
 
 @media (max-width: 768px) {
@@ -762,7 +762,8 @@ body a {
   left: -50px;
   width: 500px;
   height: 500px;
-  background: url("/src/files/img/main/business-traffic/2.svg") no-repeat;
+  background: url("../img/main/business-traffic/2.svg") no-repeat;
+  z-index: 0;
 }
 
 .business-traffic__container {
@@ -831,6 +832,11 @@ body a {
   .business-traffic__text {
     text-align: center;
   }
+}
+
+.business-traffic__buttons {
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 425px) {
@@ -998,6 +1004,10 @@ body a {
   }
 }
 
+.startup__buttons {
+  z-index: 1;
+}
+
 .startup__button {
   padding: 17px 33px;
 }
@@ -1005,6 +1015,7 @@ body a {
 .startup__img {
   max-width: 100%;
   position: absolute;
+  z-index: 1;
   top: 25%;
 }
 
@@ -1127,7 +1138,7 @@ body a {
   right: -490px;
   width: 1000px;
   height: 500px;
-  background: url("/src/files/img/main/better-business/2.svg") no-repeat;
+  background: url("../img/main/better-business/2.svg") no-repeat;
 }
 
 @media (max-width: 768px) {
@@ -1148,7 +1159,7 @@ body a {
   right: -100px;
   width: 400px;
   height: 500px;
-  background: url("/src/files/img/main/finding-info/4.svg");
+  background: url("../img/main/finding-info/4.svg");
 }
 
 .finding-info__content {
@@ -1301,7 +1312,7 @@ body a {
   left: -50px;
   width: 2500px;
   height: 100%;
-  background: url("/src/files/img/main/send-email/1.svg") no-repeat;
+  background: url("../img/main/send-email/1.svg") no-repeat;
 }
 
 .send-email__container {
@@ -1433,7 +1444,7 @@ body a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("/src/files/img/footer/1.svg") no-repeat;
+  background: url("../img/footer/1.svg") no-repeat;
   opacity: 0.3;
 }
 
