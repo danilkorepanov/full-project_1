@@ -1006,6 +1006,7 @@ body a {
 
 .startup__buttons {
   position: relative;
+  height: 100px;
   z-index: 3;
 }
 
